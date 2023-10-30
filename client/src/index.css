@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.duy-topmenu-expanded{
+@apply max-2xl:absolute max-2xl:top-10 max-2xl:z-50 max-2xl:w-full max-2xl:text-center max-2xl:bg-white animate-slideDown;}
+.duy-top-menu-item {
+@apply cursor-pointer py-1 hover:text-gray-800 relative after:2xl:absolute after:2xl:bottom-0 after:2xl:left-0 after:2xl:h-0.5 after:2xl:w-0 hover:after:2xl:w-full 
+ after:2xl:bg-gray-800 after:2xl:transition-all after:2xl:ease-in-out after:2xl:duration-300;
+}
+.duy-icon{
+@apply w-5 h-5 inline-block;
+}
+.card {
+@apply rounded-xl shadow-lg;
+} 
